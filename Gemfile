@@ -45,7 +45,7 @@ group :development do
   gem 'spring'
 end
 
-gem 'sufia', '7.0.0.rc2'
+gem 'sufia', '7.0.0'
 gem 'rsolr', '~> 1.0'
 gem 'devise'
 gem 'devise-guests', '~> 0.3'
