@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'doi_request/index'
+
+  get 'doi_request/pending'
+
+  get 'doi_request/create'
+
+  get 'doi_request/show'
+
+  get 'doi_request/edit'
+
+  get 'doi_request/update'
+
   Hydra::BatchEdit.add_routes(self)
   mount Qa::Engine => '/authorities'
 
