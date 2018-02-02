@@ -58,3 +58,4 @@ end
 
 gem 'pg'
 gem 'resque-pool'
+gem 'kaminari', '< 1.0'
